@@ -2,4 +2,4 @@ const phraserandom = "In cryptography, Alice and Bob are fictional characters co
 
 const firstname = 'barnabé'
 
-console.log(phraserandom.replace('Alice', firstname))
+console.log(phraserandom.replaceAll('Alice', firstname))
